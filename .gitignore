@@ -1,0 +1,14 @@
+.project
+.metadata
+*.tmp
+*.bak
+*.swp
+.classpath
+.loadpath
+*.launch
+*.iml
+*.ipr
+*.iws
+.settings/
+.idea/
+target/
