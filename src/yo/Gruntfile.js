@@ -71,7 +71,7 @@ module.exports = function (grunt) {
                     base: [
                         '.tmp',
                         'test',
-                        yeomanConfig.app,
+                        yeomanConfig.app
                     ]
                 }
             },
@@ -297,7 +297,7 @@ module.exports = function (grunt) {
         },
         concurrent: {
             server: [
-                'compass',
+                //'compass',
                 'coffee:dist',
                 'copy:styles'
             ],
@@ -307,7 +307,7 @@ module.exports = function (grunt) {
             ],
             dist: [
                 'coffee',
-                'compass',
+                //'compass',
                 'copy:styles',
                 'imagemin',
                 'svgmin',
