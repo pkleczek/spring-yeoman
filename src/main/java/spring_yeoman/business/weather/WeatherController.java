@@ -1,4 +1,4 @@
-package spring_yeoman.infrastructure.spring_yeoman.business.weather;
+package spring_yeoman.business.weather;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.MediaType;

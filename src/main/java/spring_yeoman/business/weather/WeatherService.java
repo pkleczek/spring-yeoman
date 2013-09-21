@@ -1,4 +1,4 @@
-package spring_yeoman.infrastructure.spring_yeoman.business.weather;
+package spring_yeoman.business.weather;
 
 import org.springframework.stereotype.Service;
 
